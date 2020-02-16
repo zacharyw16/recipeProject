@@ -10,6 +10,11 @@ body {
     font-family: Poly;
 
 }
+
+header .navbar navbar-expand-lg navbar-light bg-light {
+    background-color: khaki;
+}
+
 header {
     font-family: Poly;
 }
@@ -72,7 +77,8 @@ section .list-2 ul {
     padding-bottom: 10px;
 }
 .table {
-    background-image: url(background2.jpg);
+    padding: 10px;
+    background-image: url(background3.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
@@ -85,4 +91,19 @@ section .list-2 ul {
     list-style: none;
     text-align: center;
     color: white;
+}
+
+footer {
+    padding: 0;
+    margin: 0;
+    background-color: wheat;
+    clear: both;
+}
+
+.ingredients {
+    font-family: Poly;
+}
+
+.method {
+    font-family: Poly;
 }
