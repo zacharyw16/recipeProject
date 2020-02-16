@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-weight: 200;
+}
+
+    h3 {
+    background-color: wheat;
+    font-family: Poly;
+
+}
+header {
+    font-family: Poly;
+}
+
+header ul li {
+    padding-right: 40px;
+    padding-left: 20px;
+}
+
+.jumbotron-con {
+    font-family: Bangers;
+    margin: 10px;
+    padding: 10px;
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: khaki;
+}
+
+section {
+    background-color: azure;
+    width: 100%;
+}
+
+.box1 {
+    display: inline-flex;
+}
+
+.img1 {
+    float: left;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+}
+
+aside .ingredients {
+    float: right;
+}
+
+.extra-links ul li {
+    display: inline;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+section .list-2 ul li{
+    display: inline-flex;
+    border: 2px solid black;
+}
+
+section .list-2 ul {
+    border: 2px solid black;
+    margin: 0;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.table {
+    background-image: url(background2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.table th {
+    text-align: center;
+    color: white;
+}
+
+.table ul li {
+    list-style: none;
+    text-align: center;
+    color: white;
+    border: 2px black;
+}
