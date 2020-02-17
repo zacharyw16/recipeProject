@@ -11,10 +11,6 @@ body {
 
 }
 
-header .navbar navbar-expand-lg navbar-light bg-light {
-    background-color: khaki;
-}
-
 header {
     font-family: Poly;
 }
@@ -41,6 +37,7 @@ section {
 
 .box1 {
     display: inline-flex;
+    width: 100%;
 }
 
 .img1 {
@@ -49,18 +46,23 @@ section {
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 0px;
+    max-width: 750px;
+    clear: both;;
 }
 
 aside .ingredients {
     float: right;
+    padding-right: 0px;
+    max-width: 650px;
+    width: 100%;
+    clear: both;
 }
 
 .extra-links ul li {
     display: inline;
-    padding-left: 10px;
-    padding-top: 10px;
-    padding-right: 10px;
-    padding-bottom: 10px;
+    max-width: 800px;
+    max-height: 120px;
+    clear: both;
 }
 
 section .list-2 ul li{
@@ -82,15 +84,22 @@ section .list-2 ul {
     background-size: cover;
     background-attachment: fixed;
 }
+
 .table th {
     text-align: center;
-    color: white;
+    color: black;
 }
 
 .table ul li {
     list-style: none;
     text-align: center;
-    color: white;
+    color: black;
+}
+ .footer-links ul li {
+    display: inline-flex;
+    list-style: none;
+    padding: 10px;
+    margin: 10px;
 }
 
 footer {
@@ -106,4 +115,10 @@ footer {
 
 .method {
     font-family: Poly;
+}
+
+@media only screen and (min-width: 601px) {
+    body {
+      background-color: azure;
+    }
 }
