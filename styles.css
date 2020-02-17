@@ -13,7 +13,7 @@ body {
 }
 
 header {
-    font-family: Poly;
+    font-family: Bangers;
 }
 
 header ul li {
@@ -48,6 +48,7 @@ section {
     padding-right: 10px;
     padding-bottom: 0px;
     max-width: 750px;
+    height: auto;
     clear: both;;
 }
 
@@ -62,8 +63,12 @@ aside .ingredients {
 .extra-links ul li {
     display: inline;
     max-width: 800px;
-    max-height: 120px;
     clear: both;
+}
+
+#scrolling-text {
+    float: right;
+    color: black;
 }
 
 section .list-2 ul li{
@@ -81,6 +86,7 @@ section .list-2 ul {
 }
 .table {
     padding: 10px;
+    margin: 10px;
     background-image: url(background3.jpg);
     background-size: cover;
     background-attachment: fixed;
@@ -120,8 +126,20 @@ footer {
     font-family: Poly;
 }
 
-@media only screen and (min-width: 601px) {
-    body {
-      background-color: azure;
-    }
+.method ol li {
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: larger;
 }
+
+.ingredients ul li {
+    font-size: larger;
+}
+
+/*media queries for mobile devices*/
+@media all and (max-width: 300px) {
+    
+  }
+
